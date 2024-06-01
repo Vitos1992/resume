@@ -36,6 +36,17 @@ img {
     height: auto;
 }
 
+/* wrap---------------------------------------- */
+
+.wrap {
+    width: 370px;
+
+}
+
+.title{
+    
+}
+
 .list {
     display: block;
     list-style: none;
