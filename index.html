@@ -6,54 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
-    <header>
-        <h3>Front-End Developer</h3>
-        <h1>Vitaly STOIKOV</h1>
-        <p>I am a passionate Front-End developer with
-            HTML, CSS and basic knowledge of JavaScript, Wordpress. I have
 
-            Successfully delivering projects on time, on budget and with a focus on user experience. I successfully work
-            in a
-            challenging and dynamic environment.
 
-            Where I can help make positive changes to both everyday life and the
-            businesses through my creative problem solving skills. I am a quick learner,
-            responsible and always ready for new challenges.</p>
-    </header>
-
-    <main>
-        
+    <main class="main_wrap">
 
         <section>
-            <h2>PROJECT EXPERIENCE</h2>
-            <ul class="list">
+
+            <h3 class="title_head">Front-End Developer</h3>
+            <h1 class="title_h">Vitaly STOIKOV</h1>
+            <p class="title_item">I am a passionate Front-End developer with
+                HTML, CSS and basic knowledge of JavaScript, Wordpress. I have
+
+                Successfully delivering projects on time, on budget and with a focus on user experience. I successfully
+                work
+                in a
+                challenging and dynamic environment.
+
+                Where I can help make positive changes to both everyday life and the
+                businesses through my creative problem solving skills. I am a quick learner,
+                responsible and always ready for new challenges.</p>
+
+
+
+
+            <h2 class="title_project">PROJECT EXPERIENCE</h2>
+            <ul class="list list_pro">
                 <li>
-                    Web Studio [HTML, CSS, JS].
-                    Website with adaptive layout. Role: Developer.
-                    Building the project on githab, checking build 
-                    errors and page performance in real time.
+                    <p class="title_item_pro">
+                        Web Studio [HTML, CSS, JS].
+                        Website with adaptive layout. Role: Developer.
+                        Building the project on githab, checking build
+                        errors and page performance in real time.
+                    </p>
                 </li>
                 <li>
-                    Thewatchspot [HTML, CSS, JS].
-                    Website with adaptive layout. Role: Scrum Master.
-                    Building the project on githab, checking build 
-                    errors and page performance in real time.
+                    <p class="title_item_pro">
+                        Thewatchspot [HTML, CSS, JS].
+                        Website with adaptive layout. Role: Scrum Master.
+                        Building the project on githab, checking build
+                        errors and page performance in real time.
+                    </p>
                 </li>
                 <li>
-                    Avtosklo [HTML, CSS, JS, PHP, Wordpress].
-                    Website with adaptive layout. Role: Developer.
-                    Building the project on githab, checking build 
-                    errors and page performance in real time.
+                    <p class="title_item_pro">
+                        Avtosklo [HTML, CSS, JS, PHP, Wordpress].
+                        Website with adaptive layout. Role: Developer.
+                        Building the project on githab, checking build
+                        errors and page performance in real time.
+                    </p>
                 </li>
             </ul>
-        </section>
 
-        <section>
-            <h2>Education</h2>
+            <!--------------------Education----------------------------  -->
+            <h2 class="title_project">Education</h2>
 
             <ul class="list">
                 <li>
@@ -71,81 +84,87 @@
 
         </section>
 
+        <section>
+            <!-- wrap------------------------------------------- -->
+
+            <div class="wrap">
+                <img class="me_photo" src="./image/photo.jpg" alt="photo">
+
+                <h3 class="title">Contacts Me</h3>
+                <ul class="list li_wrap">
+                    <li class="li_style">
+                        <a class="list" href="">
+                            <svg width="12" height="12">
+                                <use href="./image/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                            +38 093 030 5149
+                        </a>
+                    </li>
+                    <li class="li_style">
+                        <a class="list" href="">
+                            <svg width="12" height="12">
+                                <use href="./image/symbol-defs.svg#icon-mail4"></use>
+                            </svg>
+                            vitalinyo4@gmail.com
+                        </a>
+                    </li>
+                    <li class="li_style">
+                        <a class="list" href="">
+                            <svg width="12" height="12">
+                                <use href="./image/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                            Linkedin
+                        </a>
+                    </li>
+                    <li class="li_style">
+                        <a class="list" href="">
+                            <svg width="12" height="12">
+                                <use href="./image/symbol-defs.svg#icon-github"></use>
+                            </svg>
+                            GitHub
+                        </a>
+                    </li>
+                    <li class="li_style">
+                        <a class="list" href="">
+                            <svg width="12" height="12">
+                                <use href="./image/symbol-defs.svg#icon-telegram"></use>
+                            </svg>
+                            @VitosStoikov
+                        </a>
+                    </li>
+                </ul>
+
+                <h3 class="title">Tech Skills</h3>
+                <ul class="list li_wrap">
+                    <li class="li_style">HTML</li>
+                    <li class="li_style">CSS</li>
+                    <li class="li_style">JavaScript</li>
+                    <li class="li_style">GIT</li>
+                    <li class="li_style">Wordpress</li>
+                </ul>
+
+                <h3 class="title">Soft Skills</h3>
+                <ul class="list li_wrap">
+                    <li class="li_style">Attention to detail</li>
+                    <li class="li_style">Team Work</li>
+                    <li class="li_style">Creativity</li>
+                    <li class="li_style">Problem Solving</li>
+                    <li class="li_style">Strong Adaptation Skills</li>
+                    <li class="li_style">calm</li>
+                </ul>
+
+                <h3 class="title">Languages</h3>
+                <ul class="list li_wrap">
+                    <li class="li_style">Ukrainian - native</li>
+                    <li class="li_style">English - basic</li>
+                    <li class="li_style">Russian - native</li>
+                </ul>
+            </div>
+        </section>
+
     </main>
 
-    <aside>
 
-        <!-- wrap------------------------------------------- -->
-
-        <div class="wrap">
-            <img src="" alt="" srcset="">
-        
-            <h3 class="title">Contacts Me</h3>
-            <ul class="list">
-                <li>
-                    <a href="">
-                        <svg>
-                            <use></use>
-                        </svg>
-                    </a>+38 093 030 5149
-                </li>
-                <li>
-                    <a href="">
-                        <svg>
-                            <use></use>
-                        </svg>
-                    </a>vitalinyo4@gmail.com
-                </li>
-                <li>
-                    <a href="">
-                        <svg>
-                            <use></use>
-                        </svg>
-                    </a>Linkedin
-                </li>
-                <li>
-                    <a href="">
-                        <svg>
-                            <use></use>
-                        </svg>
-                    </a>GitHub
-                </li>
-                <li>
-                    <a href="">
-                        <svg>
-                            <use></use>
-                        </svg>
-                    </a>@VitosStoikov
-                </li>
-            </ul>
-        
-            <h3 class="title">Tech Skills</h3>
-            <ul class="list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>GIT</li>
-                <li>Wordpress</li>
-            </ul>
-        
-            <h3 class="title">Soft Skills</h3>
-            <ul class="list">
-                <li>Attention to detail</li>
-                <li>Team Work</li>
-                <li>Creativity</li>
-                <li>Problem Solving</li>
-                <li>Strong Adaptation Skills</li>
-                <li>calm</li>
-            </ul>
-        
-            <h3 class="title">Languages</h3>
-            <ul class="list">
-                <li>Ukrainian - native</li>
-                <li>English - basic</li>
-                <li>Russian - native</li>
-            </ul>
-        </div>
-    </aside>
 </body>
 
 </html>
