@@ -95,15 +95,6 @@ ul {
     content: counter(ol-item) ".";
 }
 
-/* .parent {
-    counter-reset: item;
-} */
-
-/* .parent ul li::before {
-    counter-increment: item;
-    content: counter(item) ".";
-
-} */
 
 .li_style {
     font-size: 14px;
@@ -157,6 +148,12 @@ ul {
     margin-left: 88px;
     margin-bottom: 18px;
 
+}
+
+.list_git {
+    width: 525px;
+    line-height: 1.4;
+    margin-bottom: 8px;
 }
 
 .title_item_pro {
