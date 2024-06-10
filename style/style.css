@@ -86,6 +86,25 @@ img {
     margin-bottom: 44px;
 }
 
+ul {
+    counter-reset: ol-item;
+}
+
+.parent ul li::before {
+    counter-increment: ol-item;
+    content: counter(ol-item) ".";
+}
+
+/* .parent {
+    counter-reset: item;
+} */
+
+/* .parent ul li::before {
+    counter-increment: item;
+    content: counter(item) ".";
+
+} */
+
 .li_style {
     font-size: 14px;
     color: #161D2A;
@@ -148,4 +167,33 @@ img {
     
     margin-bottom: 6px;
     color: #595959;
+}
+
+/* --------------------------education--------------------------- */
+
+.education {
+    font-size: 16px;
+    font-weight: 700;
+    color: #6D9BF5;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-bottom: 11px;
+}
+
+.item_decor {
+    width: 525px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+.time {
+    font-size: 12px;
+    color: #A8A8A8;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.3;
+    margin-bottom: 12px;
 }
