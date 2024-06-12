@@ -48,9 +48,8 @@ img {
 
 .wrap {
     width: 370px;
+    height: 100%;
     background-color: #E0EBFE;
-    
-
 }
 
 .me_photo {
@@ -86,6 +85,17 @@ img {
     margin-bottom: 44px;
 }
 
+.li_wrap li::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
 ul {
     counter-reset: ol-item;
 }
@@ -101,6 +111,16 @@ ul {
     color: #161D2A;
     font-weight: 400;
     margin-bottom: 6px;
+}
+
+.svg_contact {
+    width: 15px;
+    height: 15px;
+}
+
+
+.span_contacts {
+    margin-left: 10px;
 }
 
 /* ----header ------------------------------ */
@@ -131,6 +151,7 @@ ul {
     margin-bottom: 64px;
     color: #595959;
     margin-left: 88px;
+    text-align: justify;
 }
 
 /* ----main---------------------------- */
@@ -161,7 +182,7 @@ ul {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4;
-    
+    text-align: justify;
     margin-bottom: 6px;
     color: #595959;
 }
