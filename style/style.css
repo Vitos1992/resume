@@ -118,9 +118,24 @@ ul {
     margin-bottom: 6px;
 }
 
+.list__soc {
+    text-decoration: none;
+    color: #000000;
+
+    transition: all 0.3s;
+}
+
+.list__soc:hover {
+    color: #6D9BF5;
+}
+
 .svg_contact {
     width: 15px;
     height: 15px;
+}
+
+.svg_contact:hover {
+    color: #6D9BF5;
 }
 
 
