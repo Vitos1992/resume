@@ -145,6 +145,9 @@ ul {
 
 /* ----header ------------------------------ */
 
+.container_wrap {
+    min-width: 500px;
+}
 
 .title_head {
     font-size: 14px;
