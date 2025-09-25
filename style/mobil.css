@@ -91,12 +91,12 @@
 @media screen and (min-width: 1300px) {
 
     .container_wrap {
-        max-width: 1250px;
+        max-width: 650px;
     }
 
     .main_wrap {
         flex-direction: row-reverse;
-        align-items: normal;
+        align-items: start;
     }
 
     /* header */
@@ -105,5 +105,42 @@
         text-align: start;
         margin: 102px 0 19px 88px;
 
+    }
+
+    .title_h {
+        font-size: 45px;
+        text-align: start;
+        margin-left: 88px;
+
+    }
+
+    .title_item {
+        max-width: 850px;
+        margin-bottom: 64px;
+        margin-left: 88px;
+        padding: 0px;
+    }
+
+    /* main */
+
+    .title_project {
+        font-size: 22px;
+        text-align: start;
+        margin-left: 88px;
+        margin-bottom: 15px;
+    }
+
+    .list_pro {
+        margin-left: 88px;
+        text-align: start;
+        padding: 0px;
+    }
+
+    /* education */
+
+    .education,
+    .item_decor,
+    .time {
+        text-align: start;
     }
 }
