@@ -46,6 +46,10 @@ img {
     
 }
 
+.section_wrap {
+        background-color: #E0EBFE;
+    }
+
 .wrap {
     /* width: 370px; */
     height: 100%;

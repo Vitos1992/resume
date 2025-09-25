@@ -14,8 +14,28 @@
         align-items: center;
     }
 
+    .section_wrap {
+        width: 100%;
+        background-color: #E0EBFE;
+    }
+
+
     .me_photo {
-        min-width: 850px;
+        display: block;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .title {
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .li_wrap_svg,
+    .li_wrap {
+        text-align: center;
+        margin-left: 0px;
     }
 
 
@@ -24,7 +44,7 @@
 
     .title_head {
         text-align: center;
-        margin: 0px 0px 20px 0px;
+        margin: 30px 0px 20px 0px;
 
     }
 
