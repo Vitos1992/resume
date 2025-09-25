@@ -14,6 +14,10 @@
         align-items: center;
     }
 
+    .me_photo {
+        min-width: 850px;
+    }
+
 
 
     /* header */
@@ -35,6 +39,7 @@
         max-width: 850px;
         margin-bottom: 20px;
         margin-left: 0px;
+        padding: 0px 15px 0px 15px;
     }
 
     /* main */
@@ -48,6 +53,8 @@
 
     .list_pro {
         margin-left: 0px;
+        text-align: center;
+        padding: 0px 15px 0px 15px;
     }
 
     /* education */
