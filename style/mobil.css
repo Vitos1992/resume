@@ -1,5 +1,11 @@
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 850px) {
 
+    .container_wrap {
+        max-width: none;
+    }
+
+    /* wrap */
+    
     .main_wrap {
         display: flex;
         flex-direction: column;
@@ -8,13 +14,69 @@
         align-items: center;
     }
 
+
+
+    /* header */
+
+    .title_head {
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+
+    }
+
+    .title_h {
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0px;
+
+    }
+
+    .title_item {
+        max-width: 850px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    /* main */
+
+    .title_project {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+
+    .list_pro {
+        margin-left: 0px;
+    }
+
+    /* education */
+
+    .education,
+    .item_decor,
+    .time {
+        text-align: center;
+    }
+
 }
 
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 1300px) {
+
+    .container_wrap {
+        max-width: 1250px;
+    }
 
     .main_wrap {
         flex-direction: row-reverse;
         align-items: normal;
+    }
+
+    /* header */
+
+    .title_head {
+        text-align: start;
+        margin: 102px 0 19px 88px;
+
     }
 }

@@ -47,13 +47,13 @@ img {
 }
 
 .wrap {
-    width: 370px;
+    /* width: 370px; */
     height: 100%;
     background-color: #E0EBFE;
 }
 
 .me_photo {
-    width: 370px;
+    /* width: 370px; */
     height: auto;
     padding-top: 40px;
     margin-bottom: 51px;
@@ -167,7 +167,7 @@ ul {
 
 }
 .title_item {
-    width: 525px;
+    /* width: 525px; */
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4;
@@ -195,7 +195,7 @@ ul {
 }
 
 .list_git {
-    width: 525px;
+    /* width: 525px; */
     line-height: 1.4;
     margin-bottom: 8px;
     color: #544c4c;
@@ -208,7 +208,7 @@ ul {
 }
 
 .title_item_pro {
-    width: 525px;
+    /* width: 525px; */
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4;
@@ -231,7 +231,7 @@ ul {
 }
 
 .item_decor {
-    width: 525px;
+    /* width: 525px; */
     font-size: 14px;
     font-weight: 700;
     line-height: 1.4;
