@@ -211,10 +211,6 @@ ul {
 
 /* ----header ------------------------------ */
 
-/* .container_wrap {
-    min-width: 500px;
-} */
-
 .title_head {
     font-size: 12px;
     font-weight: 700;
@@ -267,6 +263,25 @@ ul {
 .list_pro {
     margin-left: 0;
     margin-bottom: 16px;
+}
+
+.block_hiden {
+    display: none;
+}
+
+.btn_project {
+    background: linear-gradient(135deg, #ffb347, #ff8c42);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 16px;
+    font-weight: 700;
+    cursor: pointer;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    z-index: 999;
+    margin-bottom: 10px;
 }
 
 .list_git {

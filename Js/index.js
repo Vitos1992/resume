@@ -1,3 +1,23 @@
+const btnProject = document.querySelectorAll('#btn_project')
+
+// btnProject.addEventListener('click', openProject);
+
+// function openProject() {
+//     btnProject.classList.add('active');
+// }
+
+// function openProject() {
+//     btnProject.classList.remove('.active');
+// }
+
+btnProject.forEach(btn => {
+    btn.addEventListener('click', () => {
+        btn.classList.toggle('active');
+    });
+});
+
+
+
 
 // simple internationalization logic
 const translations = {
