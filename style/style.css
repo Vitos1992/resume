@@ -263,10 +263,25 @@ ul {
 .list_pro {
     margin-left: 0;
     margin-bottom: 16px;
+    display: inline-block;
+    position: relative;
 }
 
 .block_hiden {
-    display: none;
+    position: absolute;
+    border: 2px solid red;
+    background: #4a90e2;
+    bottom: 100%;
+    left: 0;
+    color: #1a1a1a;
+    padding: 5px 10px;
+    opacity: 0;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.list_pro:hover .block_hiden {
+    opacity: 1;
 }
 
 .btn_project {

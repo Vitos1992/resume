@@ -1,4 +1,7 @@
-const btnProject = document.querySelectorAll('#btn_project')
+const btnStudio = document.querySelector('#btn_studio');
+
+
+btnStudio.addEventListener('click', openBtn);
 
 // btnProject.addEventListener('click', openProject);
 
@@ -10,11 +13,10 @@ const btnProject = document.querySelectorAll('#btn_project')
 //     btnProject.classList.remove('.active');
 // }
 
-btnProject.forEach(btn => {
-    btn.addEventListener('click', () => {
-        btn.classList.toggle('active');
-    });
-});
+
+function openBtn() {
+    btnStudio.classList.add('open');
+}
 
 
 
