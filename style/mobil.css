@@ -123,7 +123,7 @@
 
     .title_head {
         text-align: start;
-        margin: 102px 0 19px 88px;
+        margin: 102px 0 19px 0px;
 
     }
 
@@ -134,14 +134,14 @@
     .title_h {
         font-size: 45px;
         text-align: start;
-        margin-left: 88px;
+        /* margin-left: 88px; */
 
     }
 
     .title_item {
         max-width: 850px;
         margin-bottom: 64px;
-        margin-left: 88px;
+        /* margin-left: 88px; */
         padding: 0px;
     }
 
@@ -150,12 +150,12 @@
     .title_project {
         font-size: 22px;
         text-align: start;
-        margin-left: 88px;
+        /* margin-left: 88px; */
         margin-bottom: 15px;
     }
 
     .list_pro {
-        margin-left: 60px;
+        /* margin-left: 60px; */
         text-align: start;
         padding: 0px;
     }

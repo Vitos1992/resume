@@ -212,7 +212,7 @@ ul {
 /* ----header ------------------------------ */
 
 .title_head {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
     color: #ffb347;
     letter-spacing: 0.03em;
@@ -264,11 +264,12 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px 10px;
+    margin-bottom: 50px;
 }
 
 .list_pro {
     margin-left: 0;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
     display: inline-block;
     position: relative;
 }
@@ -311,7 +312,7 @@ ul {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.2s ease, opacity 0.2s ease;
     z-index: 999;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .list_git {
@@ -349,7 +350,7 @@ ul {
     line-height: 1.6;
     text-align: justify;
     margin-bottom: 8px;
-    color: #555555;
+    color: #ffffff;
 }
 
 
@@ -392,6 +393,10 @@ ul {
     padding: 80px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
     border-radius: 0;
+}
+
+.box_wrap_cont {
+    margin-left: 88px;
 }
 
 section {
